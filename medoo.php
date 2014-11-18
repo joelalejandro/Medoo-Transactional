@@ -2,7 +2,7 @@
 /*!
  * Medoo database framework
  * http://medoo.in
- * Version 0.9.6.2
+ * Version 0.9.6.2-dbt
  * 
  * Copyright 2014, Angel Lai
  * Released under the MIT license
@@ -867,5 +867,21 @@ class medoo
 
 		return $output;
 	}
+	
+	//added by @joelalejandro, per https://github.com/catfan/Medoo/issues/147
+	public function begin_transaction() 
+	{
+  		return $this->pdo->beginTransaction();
+	}
+
+	public function commit() 
+	{
+  		return $this->pdo->commit();
+	}
+
+	public function rollback() 
+	{
+  		return $this->pdo->rollBack();
+	}	
 }
 ?>

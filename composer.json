@@ -1,12 +1,13 @@
 {
-	"name": "catfan/medoo",
+	"name": "joelalejandro/medoo-transactional",
 	"type": "framework",
-	"description": "The Lightest PHP database framework to accelerate development",
+	"description": "The Lightest PHP database framework to accelerate development (with support for transactions)",
 	"keywords": ["database", "SQL", "MySQL", "MSSQL", "SQLite"],
 	"homepage": "http://medoo.in",
 	"license": "MIT",
 	"authors": [
-		{"name": "Angel Lai", "email": "angel.lai.cat@gmail.com"}
+		{"name": "Angel Lai", "email": "angel.lai.cat@gmail.com"},
+		{"name": "Joel A. Villarreal Bertoldi", "email": "joel.a.villarreal@gmail.com"}
 	],
 	"require": {
 		"php": ">=5.1",

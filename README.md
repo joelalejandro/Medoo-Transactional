@@ -16,6 +16,8 @@
 
 * **Free** - Under MIT license, you can use it anywhere if you want.
 
+* **Transaction-compatible** - This fork exposes PDO transaction-related methods (beginTransaction, commit, rollback).
+
 ### Get Started
 
 ```php
